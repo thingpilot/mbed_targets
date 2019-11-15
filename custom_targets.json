@@ -3,10 +3,13 @@
         "inherits": ["MTB_MURATA_ABZ"],
         "overrides": {
             "stdio_uart_tx": "PA_2_ALT0",
-            "stdio_uart_rx": "PA_3_ALT0"        
+            "stdio_uart_rx": "PA_3_ALT0"
         },
         "macros_add": [
             "BOARD=WRIGHT_V1_0_0",
+            "MAX_BUFFER_READING_TIMES=50",
+            "MAX_RETRY_CLOCK_SYNCH=3",
+            "STM32_UID=((uint32_t *)0x1FF80050)",
             "_PERSISTENT_STORAGE_DRIVER=STM24256",
             "_COMMS_NBIOT_DRIVER=SARAN2",
             "_COMMS_LORA_DRIVER=NONE",
@@ -34,6 +37,9 @@
         "inherits": ["MTB_MURATA_ABZ"],
         "macros_add": [
             "BOARD=EARHART_V1_0_0",
+            "MAX_BUFFER_READING_TIMES=50",
+            "MAX_RETRY_CLOCK_SYNCH=3",
+            "STM32_UID=((uint32_t *)0x1FF80050)",
             "_PERSISTENT_STORAGE_DRIVER=STM24256",
             "_COMMS_NBIOT_DRIVER=NONE",
             "_COMMS_LORA_DRIVER=SX1276",
@@ -57,10 +63,16 @@
             "TP_LORA_RESET=(PinName)0x20"
         ]
     },
+
+
     "TP_DEV_BOARD_V1_1_0": {
         "inherits": ["NUCLEO_L073RZ"],
         "macros_add": [
+
             "BOARD=DEVELOPMENT_BOARD_V1_1_0",
+            "MAX_BUFFER_READING_TIMES=50",
+            "MAX_RETRY_CLOCK_SYNCH=3",
+            "STM32_UID=((uint32_t *)0x1FF80050)",
             "_PERSISTENT_STORAGE_DRIVER=STM24256",
             "_COMMS_NBIOT_DRIVER=SARAN2",
             "_COMMS_LORA_DRIVER=SX1276",
@@ -86,6 +98,3 @@
         ]
     }
 }
-
-
-
