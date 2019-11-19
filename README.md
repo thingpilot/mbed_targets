@@ -8,6 +8,10 @@ Using the custom targets that we've defined in [custom_targets.json](https://git
  5. Copy `custom_targets.json` into the directory of your Mbed program that contains `main.cpp`
 
 ## Thingpilot Mbed Targets Release Notes
+**v0.3.0**  *19/11/2019*
+
+- Correct PinName typo in TP_WRIGHT_V1_0_0
+
 **v0.2.1**  *15/11/2019*
 
 - Add how-to to readme
