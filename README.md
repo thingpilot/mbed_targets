@@ -8,6 +8,12 @@ Using the custom targets that we've defined in [custom_targets.json](https://git
  5. Copy `custom_targets.json` into the directory of your Mbed program that contains `main.cpp`
 
 ## Thingpilot Mbed Targets Release Notes
+**v0.4.0**  *20/11/2019*
+
+- Create parent THINGPILOT target for all custom definitions
+- Define values for BOARD, _COMMS_DRIVER and _PERSISTENT_STORAGE_DRIVER macro values
+- DEVELOPMENT_BOARD_v1_1_0 inherits both multiple targets
+
 **v0.3.0**  *19/11/2019*
 
 - Correct PinName typo in TP_WRIGHT_V1_0_0
