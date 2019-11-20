@@ -8,6 +8,11 @@ Using the custom targets that we've defined in [custom_targets.json](https://git
  5. Copy `custom_targets.json` into the directory of your Mbed program that contains `main.cpp`
 
 ## Thingpilot Mbed Targets Release Notes
+**v0.5.0**  *20/11/2019*
+
+- Prefix communications drivers to avoid naming conflicts with NodeFlow
+- Prefix persistent storage drivers to avoid naming conflicts with NodeFlow
+
 **v0.4.0**  *20/11/2019*
 
 - Create parent THINGPILOT target for all custom definitions
