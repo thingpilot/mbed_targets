@@ -8,6 +8,11 @@ Using the custom targets that we've defined in [custom_targets.json](https://git
  5. Copy `custom_targets.json` into the directory of your Mbed program that contains `main.cpp`
 
 ## Thingpilot Mbed Targets Release Notes
+**v0.6.0**  *31/01/2020*
+
+- Add missing SPI_NSS pin for WRIGHT_V1_0_0
+- Correct SPI_SK to SPI_SCK in EARHART_V1_0_0
+
 **v0.5.0**  *20/11/2019*
 
 - Prefix communications drivers to avoid naming conflicts with NodeFlow
