@@ -39,7 +39,7 @@
             "TP_PC_BAUD=115200",
             "TP_NBIOT_TXU=(PinName)0x16",
             "TP_NBIOT_RXU=(PinName)0x17",
-            "TP_NBIOT_BAUD=57600",
+            "TP_NBIOT_BAUD=9600",
             "TP_NBIOT_CTS=(PinName)0x14",
             "TP_NBIOT_RST=(PinName)0x0B",
             "TP_NBIOT_VINT=(PinName)0x15",
